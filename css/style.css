@@ -17,6 +17,7 @@ body{
 
 #MainPresentation {
     background-color: #102A43;
+    color: white;
     font-weight: bold;
 }
 
@@ -31,4 +32,28 @@ body{
     color: #F5A623;
 }
 
-
+/*---- Sessão de Destaque ---//-----*/
+#DestaqueSection {
+    display: flex;
+    background-color: #163A5F;
+    height: 350px;
+    width: 80rem;
+    flex-direction: column;
+}
+#Text1{
+    color: #F5A623;
+    size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#Text2{
+    color: white;
+    size: 40px;
+    font-weight: bold;
+    width: 750px;
+}
+#DestrictiveText{
+    color: #E2E8F0;
+    size: 16px;
+    width: 700px;
+}
