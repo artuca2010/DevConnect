@@ -104,3 +104,22 @@ body{
 #Subscribe:hover{
     background-color: #E09612;
 }
+
+/* ----///--- Sessão de programação -----//---- */
+#SessãoProgramacao{
+    background-color: #F4F6F9;
+    width: 80rem;
+    flex-direction: column;
+}
+
+#ProgramacaoTitulo{
+    size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#ProgramacaoDescp{
+    color: rgb(173, 173, 173);
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: -12px;
+}
