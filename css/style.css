@@ -57,3 +57,35 @@ body{
     size: 16px;
     width: 700px;
 }
+
+#DataTitleHandler{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    justify-content: space-around;
+    background-color: red;
+    width: 20rem;
+    height: 35px;
+    opacity: 50%;
+}
+#DataInfoHandler{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    justify-content: space-around;
+    background-color: green;
+    width: 20rem;
+    height: 35px;
+    opacity: 50%;
+}
+.DataTitle{
+    color: #F5A623;
+    font-weight: bold;
+    size: 16px;
+    font-family: sans-serif;
+}
+.DataInfo{
+    color: whitesmoke;
+}
