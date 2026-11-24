@@ -8,12 +8,11 @@ body{
     display: flex;
     background-color: #102A43;
     height: 80px;
-    width: 100rem;
+    width: 80rem;
     align-items: center;
     justify-content: start;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 26px;
-    padding: 2px;
 }
 
 #MainPresentation {
@@ -25,4 +24,11 @@ body{
     color: white;
     font-size: 14px;
     display: flex;
+    margin-left: 24px;
 }
+
+.links:hover {
+    color: #F5A623;
+}
+
+
