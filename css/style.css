@@ -64,10 +64,10 @@ body{
     align-items: start;
     justify-content: start;
     justify-content: space-around;
-    background-color: red;
-    width: 20rem;
+    width: 30rem;
     height: 35px;
-    opacity: 50%;
+    opacity: 100%;
+    margin-top: -10px;
 }
 #DataInfoHandler{
     display: flex;
@@ -75,10 +75,10 @@ body{
     align-items: start;
     justify-content: start;
     justify-content: space-around;
-    background-color: green;
-    width: 20rem;
+    width: 30rem;
     height: 35px;
-    opacity: 50%;
+    opacity: 100%;
+    margin-top: -10px;
 }
 .DataTitle{
     color: #F5A623;
@@ -88,4 +88,19 @@ body{
 }
 .DataInfo{
     color: whitesmoke;
+}
+
+#Subscribe{
+    background-color: #F5A623;
+    width: 8vw;
+    height: 10vw;
+    color: #102A43;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 22px;
+    border-radius: 6px;
+}
+#Subscribe:hover{
+    background-color: #E09612;
 }
